@@ -1,0 +1,71 @@
+{
+	"extraImages": [
+		"characters/countdown"
+	],
+	"animations": [
+		{
+			"offsets": [
+				-58,
+				80
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "three",
+			"indices": [],
+			"name": "three"
+		},
+		{
+			"offsets": [
+				-45,
+				77
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "two",
+			"indices": [],
+			"name": "two"
+		},
+		{
+			"offsets": [
+				-44,
+				63
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "one",
+			"indices": [],
+			"name": "one"
+		},
+		{
+			"offsets": [
+				-14,
+				136
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "go",
+			"indices": [],
+			"name": "go"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/countdown",
+	"position": [
+		30,
+		120
+	],
+	"healthicon": "skarlet",
+	"vocal_name": "skarlet",
+	"flip_x": false,
+	"healthbar_colors": [
+		225,
+		47,
+		106
+	],
+	"camera_position": [
+		0,
+		-20
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

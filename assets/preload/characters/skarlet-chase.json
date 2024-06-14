@@ -1,0 +1,108 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				675
+			],
+			"anim": "land",
+			"fps": 24,
+			"name": "land",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				35,
+				0
+			],
+			"anim": "aim",
+			"fps": 24,
+			"name": "aim0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				48,
+				-9
+			],
+			"anim": "shooting",
+			"fps": 24,
+			"name": "shooting",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				27,
+				1
+			],
+			"anim": "back2idle",
+			"fps": 24,
+			"name": "backtoidle",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				27,
+				-19
+			],
+			"anim": "idle-aim",
+			"fps": 24,
+			"name": "aim loop",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
+			"fps": 24,
+			"anim": "idle-loop",
+			"loop": true,
+			"name": "idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/skarlet-chase",
+	"position": [
+		0,
+		250
+	],
+	"healthicon": "skarlet",
+	"vocal_name": "skarlet",
+	"flip_x": false,
+	"healthbar_colors": [
+		225,
+		47,
+		106
+	],
+	"camera_position": [
+		200,
+		40
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -1,0 +1,112 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-2
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-8,
+				2
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-92,
+				-78
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-98,
+				-9
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				72,
+				60
+			],
+			"anim": "pre-attack",
+			"fps": 24,
+			"name": "pre",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-150,
+				-106
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "attack",
+			"indices": [],
+			"name": "throw"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				11,
+				150
+			],
+			"anim": "hurt",
+			"fps": 24,
+			"name": "hurt",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-52,
+				-45
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": true,
+			"name": "right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/nene_fight",
+	"position": [
+		0,
+		260
+	],
+	"healthicon": "face",
+	"vocal_name": null,
+	"flip_x": false,
+	"healthbar_colors": [
+		238,
+		108,
+		167
+	],
+	"camera_position": [
+		270,
+		90
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -1,8 +1,9 @@
 stage
-spooky
+alleyway
+junkyard
+matthew
+subway
+fightuwu
+pollo
+halloween
 philly
-limo
-mall
-mallEvil
-school
-schoolEvil

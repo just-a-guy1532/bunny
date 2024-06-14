@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["Beat-it", "mora", "SugarMoon"],
+		["Rushdown", "henchmen", "Kalpy Ft. SugarMoon"],
+		["Freakpunk", "mora", "Kalpy"]
+	],
+
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+
+	"storyName": "",
+	"weekBefore": "tutorial",
+	"weekName": "Main Week 2",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

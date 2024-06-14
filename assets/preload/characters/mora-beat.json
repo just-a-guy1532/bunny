@@ -1,0 +1,189 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-165,
+				26
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "attack",
+			"indices": [],
+			"name": "attack0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-363,
+				5
+			],
+			"anim": "hurt",
+			"fps": 24,
+			"name": "hurt0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				29,
+				22
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "right0"
+		},
+		{
+			"offsets": [
+				-50,
+				-50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down0"
+		},
+		{
+			"offsets": [
+				-36,
+				73
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up0"
+		},
+		{
+			"offsets": [
+				-68,
+				20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "left0"
+		},
+		{
+			"offsets": [
+				23,
+				22
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "right alt0"
+		},
+		{
+			"offsets": [
+				-50,
+				-50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "down alt0"
+		},
+		{
+			"offsets": [
+				-36,
+				72
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "up alt0"
+		},
+		{
+			"offsets": [
+				-69,
+				20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "left alt0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-447,
+				248
+			],
+			"anim": "ko",
+			"fps": 24,
+			"name": "ko0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-496,
+				43
+			],
+			"anim": "jumpscare",
+			"fps": 24,
+			"name": "jumpscare0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-106,
+				35
+			],
+			"anim": "angry",
+			"fps": 24,
+			"name": "angry0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-20,
+				40
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "laugh",
+			"indices": [],
+			"name": "laugh0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mora-fight-atlas",
+	"position": [
+		380,
+		190
+	],
+	"healthicon": "bf",
+	"vocal_name": null,
+	"flip_x": true,
+	"healthbar_colors": [
+		106,
+		37,
+		212
+	],
+	"camera_position": [
+		0,
+		290
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

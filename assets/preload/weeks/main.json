@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["Soda Pop", "skarlet", "SugarMoon"],
+		["Groovin", "skarlet", "Kalpy"],
+		["Streetstyle", "skarlet", "Kalpy"]
+	],
+
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+
+	"storyName": "",
+	"weekBefore": "tutorial",
+	"weekName": "Main Week 1",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

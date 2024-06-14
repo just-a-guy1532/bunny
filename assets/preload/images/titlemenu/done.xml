@@ -1,0 +1,8 @@
+<TextureAtlas width="1421" imagePath="done.png" height="134">
+	<SubTexture x="1" frameWidth="351" y="1" frameX="-0" name="button idle0000" frameHeight="108" frameY="-0" width="351" height="108"/>
+	<SubTexture x="707" frameWidth="366" y="1" frameX="-1" name="button press0000" frameHeight="137" frameY="11" width="349" height="131"/>
+	<SubTexture x="1059" frameWidth="366" y="1" frameX="5" name="button press0001" frameHeight="137" frameY="12" width="361" height="132"/>
+	<SubTexture x="355" frameWidth="366" y="1" frameX="-1" name="button press0002" frameHeight="137" frameY="5" width="349" height="118"/>
+	<SubTexture x="1" frameWidth="366" y="1" frameX="0" name="button press0003" frameHeight="137" frameY="0" width="351" height="108"/>
+	<SubTexture x="1" frameWidth="366" y="1" frameX="0" name="button press0004" frameHeight="137" frameY="0" width="351" height="108"/>
+</TextureAtlas>

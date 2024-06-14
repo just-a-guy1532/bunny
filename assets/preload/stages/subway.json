@@ -1,0 +1,15 @@
+{
+	"directory": "metro",
+	"defaultZoom": 0.75,
+	"isPixelStage": false,
+
+	"boyfriend": [1100, 100],
+	"girlfriend": [400, 130],
+	"opponent": [-50, 150],
+	"hide_girlfriend": true,
+
+	"camera_boyfriend": [-270, 0],
+	"camera_opponent": [300, 0],
+	"camera_girlfriend": [600, 250],
+	"camera_speed": 1
+}

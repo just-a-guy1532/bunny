@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mora_tutorial_pop_up.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tutorial pop up0000" x="1" y="1" width="704" height="627"/>
+	<SubTexture name="tutorial pop up0001" x="706" y="1" width="704" height="627"/>
+	<SubTexture name="tutorial pop up0002" x="1" y="629" width="703" height="627" frameX="0" frameY="0" frameWidth="704" frameHeight="627"/>
+	<SubTexture name="tutorial pop up0003" x="705" y="629" width="703" height="627" frameX="0" frameY="0" frameWidth="704" frameHeight="627"/>
+	<SubTexture name="tutorial pop up0004" x="1411" y="1" width="695" height="627" frameX="0" frameY="0" frameWidth="704" frameHeight="627"/>
+	<SubTexture name="tutorial pop up0005" x="1409" y="629" width="697" height="627" frameX="0" frameY="0" frameWidth="704" frameHeight="627"/>
+</TextureAtlas>

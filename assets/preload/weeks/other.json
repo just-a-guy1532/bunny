@@ -1,0 +1,29 @@
+{
+	"songs": [
+		["Fuss", "skarlet", "YingYang"],
+		["Bunboxxin", "matt", "Kalpy"],
+		["Sinister", "spooky", "Karan"],
+		["Ignited", "darnell", "Kalpy"],
+		["Philly Nice", "pico", "Kalpy"],
+		["Naifu", "nene", "Karan"],
+		["Candy Sauce", "skarlet", "Kalpy"],
+		["Goth", "mora", "Kalpy"],
+		["Hyperbl1tz", "nikku", "SugarMoon"],
+		["Carrotbyte", "hex", "YingYang"],
+		["Bomba", "whitty", "Karan"]
+	],
+
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+
+	"storyName": "",
+	"weekBefore": "tutorial",
+	"weekName": "Second Week",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}

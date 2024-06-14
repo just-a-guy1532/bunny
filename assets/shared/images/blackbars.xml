@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="blackbars.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bounce0000" x="1" y="741" width="1933" height="155"/>
+	<SubTexture name="bounce0001" x="1" y="899" width="1933" height="152" frameX="0" frameY="-3" frameWidth="1933" frameHeight="155"/>
+	<SubTexture name="bounce0002" x="1" y="1054" width="1933" height="149" frameX="0" frameY="-5" frameWidth="1933" frameHeight="155"/>
+	<SubTexture name="bounce0003" x="1" y="1206" width="1933" height="147" frameX="0" frameY="-7" frameWidth="1933" frameHeight="155"/>
+	<SubTexture name="bounce0004" x="1937" y="1222" width="1933" height="145" frameX="0" frameY="-9" frameWidth="1933" frameHeight="155"/>
+	<SubTexture name="bounce0005" x="1937" y="1517" width="1933" height="142" frameX="0" frameY="-11" frameWidth="1933" frameHeight="155"/>
+	<SubTexture name="bounce0006" x="1" y="1650" width="1933" height="141" frameX="0" frameY="-12" frameWidth="1933" frameHeight="155"/>
+	<SubTexture name="bounce0007" x="1937" y="1662" width="1933" height="139" frameX="0" frameY="-14" frameWidth="1933" frameHeight="155"/>
+	<SubTexture name="bounce0008" x="1" y="1794" width="1933" height="137" frameX="0" frameY="-15" frameWidth="1933" frameHeight="155"/>
+	<SubTexture name="bounce0009" x="1937" y="1804" width="1933" height="136" frameX="0" frameY="-16" frameWidth="1933" frameHeight="155"/>
+	<SubTexture name="bounce0010" x="1" y="1934" width="1933" height="135" frameX="0" frameY="-17" frameWidth="1933" frameHeight="155"/>
+	<SubTexture name="bounce0011" x="1937" y="1943" width="1933" height="135" frameX="0" frameY="-17" frameWidth="1933" frameHeight="155"/>
+	<SubTexture name="bouncered0000" x="1" y="1" width="1933" height="334"/>
+	<SubTexture name="bouncered0001" x="1937" y="1" width="1933" height="295" frameX="0" frameY="-39" frameWidth="1933" frameHeight="334"/>
+	<SubTexture name="bouncered0002" x="1937" y="299" width="1933" height="259" frameX="0" frameY="-75" frameWidth="1933" frameHeight="334"/>
+	<SubTexture name="bouncered0003" x="1" y="338" width="1933" height="226" frameX="0" frameY="-108" frameWidth="1933" frameHeight="334"/>
+	<SubTexture name="bouncered0004" x="1937" y="561" width="1933" height="197" frameX="0" frameY="-137" frameWidth="1933" frameHeight="334"/>
+	<SubTexture name="bouncered0005" x="1" y="567" width="1933" height="171" frameX="0" frameY="-163" frameWidth="1933" frameHeight="334"/>
+	<SubTexture name="bouncered0006" x="1937" y="761" width="1933" height="154" frameX="0" frameY="-180" frameWidth="1933" frameHeight="334"/>
+	<SubTexture name="bouncered0007" x="1937" y="918" width="1933" height="150" frameX="0" frameY="-184" frameWidth="1933" frameHeight="334"/>
+	<SubTexture name="bouncered0008" x="1937" y="1071" width="1933" height="148" frameX="0" frameY="-186" frameWidth="1933" frameHeight="334"/>
+	<SubTexture name="bouncered0009" x="1" y="1356" width="1933" height="145" frameX="0" frameY="-189" frameWidth="1933" frameHeight="334"/>
+	<SubTexture name="bouncered0010" x="1937" y="1370" width="1933" height="144" frameX="0" frameY="-190" frameWidth="1933" frameHeight="334"/>
+	<SubTexture name="bouncered0011" x="1" y="1504" width="1933" height="143" frameX="0" frameY="-191" frameWidth="1933" frameHeight="334"/>
+</TextureAtlas>

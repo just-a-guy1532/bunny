@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="erect_toggle_button.png">
+<SubTexture name="idle-erect0000" x="0" y="177" width="346" height="170" frameX="-11" frameY="-7" frameWidth="366" frameHeight="175" />
+<SubTexture name="to-normal0000" x="0" y="684" width="364" height="158" frameX="-2" frameY="-19" frameWidth="366" frameHeight="175" />
+<SubTexture name="to-normal0001" x="693" y="0" width="358" height="163" frameX="-5" frameY="-14" frameWidth="366" frameHeight="175" />
+<SubTexture name="to-normal0002" x="0" y="0" width="337" height="177" frameX="-13" frameY="0" frameWidth="366" frameHeight="175" />
+<SubTexture name="to-normal0003" x="0" y="0" width="337" height="177" frameX="-13" frameY="0" frameWidth="366" frameHeight="175" />
+<SubTexture name="to-normal0004" x="346" y="177" width="346" height="170" frameX="-11" frameY="-7" frameWidth="366" frameHeight="175" />
+<SubTexture name="to-normal0005" x="346" y="177" width="346" height="170" frameX="-11" frameY="-7" frameWidth="366" frameHeight="175" />
+<SubTexture name="idle-normal0000" x="0" y="347" width="346" height="170" frameX="-11" frameY="-7" frameWidth="366" frameHeight="175" />
+<SubTexture name="to-erect0000" x="0" y="517" width="368" height="167" frameX="0" frameY="-10" frameWidth="366" frameHeight="175" />
+<SubTexture name="to-erect0001" x="337" y="0" width="356" height="173" frameX="-6" frameY="-4" frameWidth="366" frameHeight="175" />
+<SubTexture name="to-erect0002" x="346" y="347" width="331" height="167" frameX="-13" frameY="-10" frameWidth="366" frameHeight="175" />
+<SubTexture name="to-erect0003" x="346" y="347" width="331" height="167" frameX="-13" frameY="-10" frameWidth="366" frameHeight="175" />
+<SubTexture name="to-erect0004" x="693" y="163" width="354" height="162" frameX="-7" frameY="-15" frameWidth="366" frameHeight="175" />
+<SubTexture name="to-erect0005" x="693" y="163" width="354" height="162" frameX="-7" frameY="-15" frameWidth="366" frameHeight="175" />
+</TextureAtlas>

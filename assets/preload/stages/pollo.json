@@ -1,0 +1,15 @@
+{
+	"directory": "pollo",
+	"defaultZoom": 0.55,
+	"isPixelStage": false,
+
+	"boyfriend": [1055.2, 200.7],
+	"girlfriend": [830, 130],
+	"opponent": [150.05, 180.7],
+	"hide_girlfriend": false,
+
+	"camera_boyfriend": [0, 0],
+	"camera_opponent": [0, 0],
+	"camera_girlfriend": [0, 0],
+	"camera_speed": 1
+}

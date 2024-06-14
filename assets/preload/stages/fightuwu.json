@@ -1,0 +1,17 @@
+{
+	"directory": "fightuwu",
+	"defaultZoom": 0.6,
+	"isPixelStage": false,
+
+	"boyfriend": [900, 100],
+	"girlfriend": [550, 130],
+	"opponent": [-50, 100],
+	"hide_girlfriend": false,
+
+	"camera_boyfriend": [-400, -50],
+	"camera_opponent": [-100, -50],
+	"camera_girlfriend": [0, 0],
+	"camera_speed": 1,
+
+	"shaders": ["bloom", "halo"]
+}

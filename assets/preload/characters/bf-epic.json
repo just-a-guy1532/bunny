@@ -1,0 +1,203 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				79,
+				4
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "bf_left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				17,
+				-30
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "bf_down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				18,
+				51
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "bf_up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				2,
+				-25
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "bf_right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				72,
+				-2
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "bf_idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				79,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "left miss"
+		},
+		{
+			"offsets": [
+				39,
+				-30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "down miss"
+		},
+		{
+			"offsets": [
+				22,
+				52
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "up miss"
+		},
+		{
+			"offsets": [
+				8,
+				-27
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "right miss"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				72,
+				-2
+			],
+			"anim": "idle-loop",
+			"fps": 24,
+			"name": "bf_idle",
+			"indices": [
+				10,
+				11,
+				12,
+				13
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				79,
+				4
+			],
+			"anim": "singLEFT-loop",
+			"fps": 24,
+			"name": "bf_left",
+			"indices": [
+				2,
+				3,
+				4,
+				5
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				17,
+				-30
+			],
+			"anim": "singDOWN-loop",
+			"fps": 24,
+			"name": "bf_down",
+			"indices": [
+				2,
+				3,
+				4,
+				5
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				2,
+				-25
+			],
+			"anim": "singRIGHT-loop",
+			"fps": 24,
+			"name": "bf_right",
+			"indices": [
+				2,
+				3,
+				4,
+				5
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				18,
+				51
+			],
+			"anim": "singUP-loop",
+			"fps": 24,
+			"name": "bf_up",
+			"indices": [
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bf_epic",
+	"position": [
+		10,
+		370
+	],
+	"healthicon": "bf",
+	"vocal_name": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		100,
+		-30
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

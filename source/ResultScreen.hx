@@ -16,7 +16,8 @@ class ResultScreen extends MusicBeatSubstate
 		Paths.clearStoredMemory();
 		Paths.clearUnusedMemory();
 
-        var score:Int;
+        var score:Float;
+	var noteMissed:Float;
         var rank:FlxSprite;
         super.create();
     }

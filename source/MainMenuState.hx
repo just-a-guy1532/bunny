@@ -35,10 +35,9 @@ class MainMenuState extends MusicBeatState
 	var optionShit:Array<String> = [
 		'story_mode',
 		'freeplay',
-		#if MODS_ALLOWED 'mods', #end
-		#if ACHIEVEMENTS_ALLOWED 'awards', #end
 		'credits',
-		#if !switch 'donate', #end
+		#if !switch 'plushie', #end
+		'gallery',
 		'options'
 	];
 
@@ -79,8 +78,8 @@ class MainMenuState extends MusicBeatState
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
 
-		camFollow = new FlxObject(0, 0, 1, 1);
-		camFollowPos = new FlxObject(0, 0, 1, 1);
+		camFollow = new FlxObject(1, 1, 1, 1);
+		camFollowPos = new FlxObject(1, 1, 1, 1);
 		add(camFollow);
 		add(camFollowPos);
 
@@ -111,9 +110,9 @@ class MainMenuState extends MusicBeatState
 			menuItem.scale.x = scale;
 			menuItem.scale.y = scale;
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[i]);
-			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
+			menuItem.animation.addByPrefix('base', optionShit[i] + " basic", 24);
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
-			menuItem.animation.play('idle');
+			menuItem.animation.play('base');
 			menuItem.ID = i;
 			menuItem.screenCenter(X);
 			menuItems.add(menuItem);
@@ -154,19 +153,10 @@ class MainMenuState extends MusicBeatState
 		#end
 
 		#if mobileC
-		addVirtualPad(UP_DOWN, A_B_C);
+		addVirtualPad(FULL, A_B_C);
 		#end
 		super.create();
 	}
-
-	#if ACHIEVEMENTS_ALLOWED
-	// Unlocks "Freaky on a Friday Night" achievement
-	function giveAchievement() {
-		add(new AchievementObject('friday_night_play', camAchievement));
-		FlxG.sound.play(Paths.sound('confirmMenu'), 0.7);
-		trace('Giving achievement "friday_night_play"');
-	}
-	#end
 
 	var selectedSomethin:Bool = false;
 
@@ -203,7 +193,7 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.ACCEPT)
 			{
-				if (optionShit[curSelected] == 'donate')
+				if (optionShit[curSelected] == 'plushie')
 				{
 					CoolUtil.browserLoad('https://ninja-muffin24.itch.io/funkin');
 				}
@@ -238,11 +228,7 @@ class MainMenuState extends MusicBeatState
 										MusicBeatState.switchState(new StoryMenuState());
 									case 'freeplay':
 										MusicBeatState.switchState(new FreeplayState());
-									#if MODS_ALLOWED
-									case 'mods':
-										MusicBeatState.switchState(new ModsMenuState());
-									#end
-									case 'awards':
+									case 'gallery':
 										MusicBeatState.switchState(new AchievementsMenuState());
 									case 'credits':
 										MusicBeatState.switchState(new CreditsState());
@@ -252,6 +238,21 @@ class MainMenuState extends MusicBeatState
 							});
 						}
 					});
+				}
+			}
+
+          for (i in 0...menuItems.members.length)
+					{
+						if (i == curSelected)
+							continue;
+						FlxTween.tween(menuItems.members[i], {alpha: 0}, 0.4, {
+							ease: FlxEase.quadOut,
+							onComplete: function(twn:FlxTween)
+							{
+								menuItems.members[i].kill();
+							}
+						});
+					}
 				}
 			}
 			#if desktop
@@ -273,6 +274,11 @@ class MainMenuState extends MusicBeatState
 
 	function changeItem(huh:Int = 0)
 	{
+		FlxG.sound.play(Paths.sound('scrollMenu'));
+		menuItems.members[curSelected].animation.play('idle');
+		menuItems.members[curSelected].updateHitbox();
+		menuItems.members[curSelected].screenCenter(X);
+
 		curSelected += huh;
 
 		if (curSelected >= menuItems.length)
@@ -280,21 +286,11 @@ class MainMenuState extends MusicBeatState
 		if (curSelected < 0)
 			curSelected = menuItems.length - 1;
 
-		menuItems.forEach(function(spr:FlxSprite)
-		{
-			spr.animation.play('idle');
-			spr.updateHitbox();
+		menuItems.members[curSelected].animation.play('selected');
+		menuItems.members[curSelected].centerOffsets();
+		menuItems.members[curSelected].screenCenter(X);
 
-			if (spr.ID == curSelected)
-			{
-				spr.animation.play('selected');
-				var add:Float = 0;
-				if(menuItems.length > 4) {
-					add = menuItems.length * 8;
-				}
-				camFollow.setPosition(spr.getGraphicMidpoint().x, spr.getGraphicMidpoint().y - add);
-				spr.centerOffsets();
-			}
-		});
+		camFollow.setPosition(menuItems.members[curSelected].getGraphicMidpoint().x,
+			menuItems.members[curSelected].getGraphicMidpoint().y - (menuItems.length > 4 ? menuItems.length * 8 : 0));
 	}
 }
